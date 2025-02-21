@@ -1,0 +1,42 @@
+.botGrid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1px;
+	margin: 32px 15px;
+}
+
+.botCard {
+	border: 1px solid #252d40;
+	border-radius: 5px;
+	padding: 15px 15px;
+	text-align: center;
+	background-color: #252d40;
+	color: white;
+}
+
+.botIcon {
+	width: 50px;
+	height: 45px;
+	margin-bottom: 10px;
+}
+
+.botCard h3 {
+	margin: 0;
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.botCard p {
+	margin: 5px 0;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.positive {
+	color: #4caf50;
+}
+
+.negative {
+	color: #f44336;
+}

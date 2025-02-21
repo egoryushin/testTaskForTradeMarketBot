@@ -1,0 +1,27 @@
+.timeRange {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+.timeRangeTitle {
+	text-align: center;
+	margin-top: 5px;
+	color: #546076;
+	font-weight: 500;
+}
+
+.timeRangeBtn {
+	padding: 5px 10px;
+	border: 1px solid #546076;
+	border-radius: 15px;
+	background-color: transparent;
+	color: #546076;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.timeRangeBtn:hover {
+	color: white;
+	border: 1px solid white;
+}

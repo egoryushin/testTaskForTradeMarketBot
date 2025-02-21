@@ -1,0 +1,23 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	margin: 20px 0;
+}
+
+.headerTitle {
+	color: #546076;
+}
+
+.headerMenu {
+	width: 25px;
+	height: 15px;
+	margin-bottom: 5px;
+}
+
+.headerRefresh {
+	width: 25px;
+	height: 25px;
+	margin-bottom: 5px;
+}

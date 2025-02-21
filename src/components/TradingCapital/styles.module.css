@@ -1,0 +1,56 @@
+.tradingCapital {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 50px;
+}
+
+.tradingCapitalLeftInfo {
+	text-align: left;
+	margin-left: 10px;
+}
+
+.tradingCapitalRightInfo {
+	margin-top: 15px;
+	text-align: right;
+}
+
+.tradingCapital h2 {
+	font-size: 15px;
+	color: #546076;
+	text-transform: uppercase;
+}
+
+.tradingCapitalizationEthereum {
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 50px;
+	margin: 5px 0;
+	color: white;
+}
+
+.tradingCapitalNotation {
+	display: flex;
+	justify-content: space-between;
+	font-size: 15px;
+	font-weight: 600;
+	color: #546076;
+	margin: 5px 0;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.tradingCapitalNotation::after {
+	content: '';
+	background: url(../../assets/toolbar-icon/coin-marker.png);
+	width: 20px;
+	height: 20px;
+	right: 5px;
+	position: absolute;
+	background-size: cover;
+}
+
+.tradingCapitalNumbers {
+	color: white;
+	font-size: 16px;
+	margin-left: 10px;
+}

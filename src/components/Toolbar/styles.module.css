@@ -1,0 +1,42 @@
+.toolbar {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #1d2637;
+}
+
+.bottomToolbar {
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: #252d40;
+}
+
+.toolbarItem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 0.8rem;
+	color: #546076;
+	cursor: pointer;
+}
+
+.toolbarItem:hover {
+	color: #fff;
+}
+
+.toolbarItem:hover img {
+	filter: brightness(0) invert(1);
+}
+
+.toolbarItem img {
+	width: 25px;
+	height: 25px;
+	margin-bottom: 5px;
+}

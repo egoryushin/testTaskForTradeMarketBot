@@ -1,0 +1,49 @@
+.dashboard {
+	font-family: 'Roboto', sans-serif;
+	/* display: flex; */
+	/* flex: 1; */
+	flex-direction: column;
+	height: 100vh;
+	align-items: center;
+	text-align: center;
+	background-color: #1d2637;
+}
+
+.tradingCapital {
+	margin-bottom: 20px;
+}
+
+.botGrid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+	margin: 20px 0;
+}
+
+.botCard {
+	border: 1px solid #2c3a4e; /* Цвет границы */
+	border-radius: 8px;
+	padding: 10px;
+	text-align: center;
+	background-color: #2c3a4e; /* Цвет карточки */
+}
+
+.botCard h3 {
+	margin: 0;
+	font-size: 1.1rem;
+	color: white; /* Белый текст */
+}
+
+.botCard p {
+	margin: 5px 0;
+	font-size: 0.9rem;
+	color: #ccc; /* Серый текст */
+}
+
+.positive {
+	color: green;
+}
+
+.negative {
+	color: red;
+}
