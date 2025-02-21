@@ -2,13 +2,12 @@
 	display: flex;
 	justify-content: center;
 	gap: 10px;
-	margin-bottom: 20px;
 }
 .timeRangeTitle {
 	text-align: center;
 	margin-top: 5px;
 	color: #546076;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 .timeRangeBtn {
